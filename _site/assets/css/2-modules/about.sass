@@ -1,0 +1,65 @@
+// About Page Specific Styling
+header.about
+	width: 100%
+	padding: 0
+
+	.header-img 
+		width: 100%
+		height: auto
+		opacity: 0.9
+
+section.about-section
+	min-height: calc(100vh - 750px)
+	padding-top: 0
+	padding-bottom: 5em
+
+	@media(max-width: 450px)
+		padding-right: 1em
+		padding-left: 1em
+
+	h1.about
+		font-size: 72px
+
+		@media(max-width: 450px)
+			padding-top: 0
+			font-size: 42px
+	
+	.about-container
+		display: flex
+		align-items: center
+
+		@media(max-width: 768px)
+			align-items: flex-start
+
+		@media(max-width: 450px)
+			flex-wrap: wrap
+
+	.description
+		max-width: 1300px
+		margin-left: 2em
+		font-size: 20px
+
+		@media(max-width: 450px)
+			margin-left: 0
+			font-size: 18px
+
+	.call-to-action
+		display: flex
+		padding: 0
+		list-style: none
+
+		li
+			margin-right: 1em
+
+	img.circle
+		height: 300px
+		width: 300px
+		border-radius: 5px
+		opacity: 0.9
+
+		@media(max-width: 450px)
+			width: 275px
+			height: 275px
+			margin-bottom: 25px
+
+

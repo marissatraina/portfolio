@@ -1,0 +1,45 @@
+// Footer Specific Styling
+.footer-container
+	display: flex
+	justify-content: space-between
+	align-items: center
+	padding-top: 1em
+	padding-right: 4em
+	padding-bottom: 1em
+	padding-left: 4em
+	color: $near-black
+	background-color: $near-white
+
+	@media(max-width: 768px)
+		padding-right: 2em
+		padding-left: 2em
+
+	@media(max-width: 450px)
+		padding-right: 1em
+		padding-left: 1em
+
+	.footer-logo
+		text-transform: uppercase
+		opacity: 0.75
+		transition: all 300ms ease-in
+
+		&:hover
+			color: $red
+
+		@media(max-width: 450px)
+			font-size: 26px
+
+	.social
+		display: flex
+		list-style: none
+		opacity: 0.75 
+
+		li
+			margin-left: 1em
+
+	a
+		color: $near-black
+
+		&:hover
+			color: $red
+			transform: none
